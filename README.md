@@ -1,7 +1,7 @@
 ## Chapitre:
 
-- [[#Documentation générale]]
-- [[#Zone de depots de tout type de fichier]]
+- [Doc générale](https://github.com/neoluigi4123/Mbot/edit/main/README.md#documentation-g%C3%A9n%C3%A9rale)
+- [Zone de depot](https://github.com/neoluigi4123/Mbot/edit/main/README.md#zone-de-depots-de-tout-type-de-fichier)
 
 # Documentation générale:
 
