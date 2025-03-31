@@ -1,8 +1,8 @@
 ## Chapitre:
 
-- [Doc générale](https://github.com/neoluigi4123/Mbot/edit/main/README.md#documentation-g%C3%A9n%C3%A9rale)
-- [Zone de depot](https://github.com/neoluigi4123/Mbot/edit/main/README.md#zone-de-depots-de-tout-type-de-fichier)
-- [Prise de notes](https://github.com/neoluigi4123/Mbot/edit/main/README.md#prise-de-notes-de-chaque-sessions)
+- [Doc générale](https://github.com/neoluigi4123/Mbot/tree/main?tab=readme-ov-file#documentation-g%C3%A9n%C3%A9rale)
+- [Zone de depot](https://github.com/neoluigi4123/Mbot/tree/main?tab=readme-ov-file#zone-de-depots-de-tout-type-de-fichier)
+- [Prise de notes](https://github.com/neoluigi4123/Mbot/tree/main?tab=readme-ov-file#prise-de-notes-de-chaque-sessions)
 
 # Documentation générale:
 
