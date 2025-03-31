@@ -2,6 +2,7 @@
 
 - [Doc générale](https://github.com/neoluigi4123/Mbot/edit/main/README.md#documentation-g%C3%A9n%C3%A9rale)
 - [Zone de depot](https://github.com/neoluigi4123/Mbot/edit/main/README.md#zone-de-depots-de-tout-type-de-fichier)
+- [Prise de notes](https://github.com/neoluigi4123/Mbot/edit/main/README.md#prise-de-notes-de-chaque-sessions)
 
 # Documentation générale:
 
@@ -27,3 +28,7 @@ Mbot/
 ```
 
 Si vous créer un dossier, merci d'y coller un fichier `.gitkeep` qui sert a syncroniser le fichier sur le github. Vous pouvez y coller le contenu suivant: `# This folder is intentionally left empty`.
+
+## Prise de notes de chaque sessions:
+
+**Si vous souhaitez voir les prises de notes des réunion, aller lire le fichier [logs.md](https://github.com/neoluigi4123/Mbot/blob/main/Logs.md)**
