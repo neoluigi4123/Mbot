@@ -2,13 +2,15 @@
 
 Voici le lien vers le [Lucid Chart](https://lucid.app/lucidchart/7f29a8b5-20e0-4dc4-a210-8b4b6dff8ea1/edit?invitationId=inv_ff67f26c-0aa7-416c-a5f0-be164a4885fd&page=0_0#) avec les diagrammes des possibles methodes utilisable pour faire des banques de données et entrainer le model afin d'utiliser plusieurs formats de reponses.
 
+La camera sera positionée au bout de la pince. Cela permetra d'avoir le point de vue de la pince, et de la controller avec plus de facilité.
+
 # Methode d'entrainement:
 ## Resources:
 - https://github.com/modzy/hugging-face-raspberry-pi
 ## Faire un model a partir de zero, ou utiliser un model pre-entrainer?
 - Si on fait appel a un entrainement a partir de zero, le model sera tres leger, relativement rapide, et aura une architecture propre a nous, pratique pour y avoir beaucoup de controle.
 - Si on fait appel a un model pre-entrainer, et qu'on le [finetune](https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)) pour respecter notre banque de donnée, on se retrouvera avec un model plus capable, mais probablement plus lent, et qui ne respecte pas notre architecture de base, qui peux limiter le controle dans l'entrainement
-- 
+
 Faire usage d'un model pre-entrainer est plus avantageux que d'utiliser un nouveau model en terme de qualité.
 ## Recherche effectuée sur les methodes utilisable possible sans faire appel a *Edge Impulse*
 
