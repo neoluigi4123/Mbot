@@ -1,5 +1,5 @@
 # Changes needed to be done:
-- Try a python IDE instead of hardcoding all the time.
+- Try a python IDE instead of hardcoding all the tim: (vscode)[https://code.visualstudio.com/docs/editor/portable].
 - Reformat function.
 - Allow P2P communication seemlessly:
   - Use a Separate Thread for Listening:
