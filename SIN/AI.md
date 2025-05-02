@@ -3,6 +3,7 @@
 Voici le lien vers le [Lucid Chart](https://lucid.app/lucidchart/7f29a8b5-20e0-4dc4-a210-8b4b6dff8ea1/edit?invitationId=inv_ff67f26c-0aa7-416c-a5f0-be164a4885fd&page=0_0#) avec les diagrammes des possibles methodes utilisable pour faire des banques de données et entrainer le model afin d'utiliser plusieurs formats de reponses.
 
 La camera sera positionée au bout de la pince. Cela permetra d'avoir le point de vue de la pince, et de la controller avec plus de facilité.
+https://docs.edgeimpulse.com/docs/edge-ai-hardware/cpu/raspberry-pi-4
 
 # Methode d'entrainement:
 ## Resources:
