@@ -48,3 +48,33 @@
         POST(msg)
         sleep(0.5)
     ```
+
+Arduino:
+```
+#include <MeMCore.h>  // Use this if you're using mCore/Orion board
+// #include <MeMegaPi.h>  // Use this if you're using MegaPi
+
+MeGyro gyro(PORT_5);  // Initialize gyro on RJ25 port 5
+
+void setup() {
+  Serial.begin(9600);
+  gyro.begin();  // Start the gyro
+}
+
+void loop() {
+  gyro.update();  // Refresh gyro data
+
+  float x = gyro.getAngleX();
+  float y = gyro.getAngleY();
+  float z = gyro.getAngleZ();
+
+  Serial.print("X: ");
+  Serial.print(x);
+  Serial.print(" | Y: ");
+  Serial.print(y);
+  Serial.print(" | Z: ");
+  Serial.println(z);
+
+  delay(200);
+}
+```
