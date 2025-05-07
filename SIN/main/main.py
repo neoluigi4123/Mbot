@@ -1,17 +1,23 @@
-from communication import GET, POST
+from communication import POST, GET
 from time import sleep
 
 while True:
-	print("Trying to fetch value")
-	fetch = GET()
-	print(fetch)
-	sleep(1)
-
-	input(">continue?")
-
-	print("Trying to send value")
-	send = POST("Coucou :)")
-	print(send)
-	sleep(1)
-
-	input(">continue?")
+        # list of different Msg:
+        # - 'ping': check system availability
+        # - 'get_dist': get ultrasensor measures
+        # - 'get_dist_left': get ultrasensor LEFT measures
+        # - 'get_dist_right': get ultrasensor RIGHT measures
+ 
+        msg = input("Msg: ")
+        POST(msg)
+        for i in range(10):
+                result = GET()
+                if result is None:
+                        sleep(0.5)
+                else:
+                        if result  == "Hello from Arduino":
+                                print(result)
+                                break
+                        if "distance" in result:
+                                print(result)
+                                break
