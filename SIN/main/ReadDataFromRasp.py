@@ -5,7 +5,7 @@ shared_data = {"latest_value": ""}
 
 def run_impulse():
     process = subprocess.Popen(
-        ["python", "-u", "Impulse.py"], # Replace the command with the actual one, but keep the -u argument to enable 'unbuffering'
+        ["python", "-u", "Impulse.py"], # -> ["stdbuf", "-oL", "edge-impulse-linux-runner"], | sudo apt install coreutils
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
         bufsize=1,
